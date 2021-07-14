@@ -1,8 +1,8 @@
 <?php 
-function getcuboidarea($depth, $width, $height){
-    $area = $depth * $width * $height;
-    print "長方形の面積は" . $area . "だよ";
+function getCuboidVolume($depth, $width, $height){
+    $volume = $depth * $width * $height;
+    print "長方形の面積は" . $volume . "だよ";
 }
 
-getcuboidarea(5,10,8);
+getCuboidVolume(5,10,8);
 
