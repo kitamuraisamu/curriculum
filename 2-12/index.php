@@ -1,4 +1,4 @@
-<form action="result2.php" method="post">
+<form action="result.php" method="post">
     お名前：<input type="text" name="your_name" /><br>
     ご希望商品：<input type="radio" name="gift" value="Ａ賞" />Ａ賞
     <input type="radio" name="gift" value="Ｂ賞" />Ｂ賞
