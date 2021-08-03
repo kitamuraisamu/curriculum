@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+:root {
+    --box-padding: 10px;
+  }
+
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#wrapper {
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    /* wrapper クラスを中央よせ */
+}
+
+/** header **/
+.header {
+    height: 100px;
+    background: #141f40;
+}
+
+.header-inner {
+    padding: var(--box-padding);
+}
+
+/** end of header **//** contents **/
+.contents{
+    height: 250px;
+}
+
+/** left **/
+.left {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background: #80bfa8;
+    
+}
+
+.left-inner {
+    padding: var(--box-padding);
+}
+
+/** end of left **//** right **/
+.right {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background: #8c2727;
+}
+
+.right-inner {
+    padding: var(--box-padding);
+}
+
+
+/** end of right **/
+/** end of contents **/
+/** footer **/
+.footer{
+    height: 100px;
+    background: #d98d30;
+
+}
+
+.footer-inner {
+    padding: var(--box-padding);
+}
+
+
+/** reset.css **/
+* {
+    margin: 0;
+    padding: 0;
+}
