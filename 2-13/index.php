@@ -17,7 +17,26 @@ echo "3.55 →" . round($num, 1) . "　　round (四捨五入 , 小数点の位)
 
 // pi（円周率）
 
+$pai = pi();
+echo round($pai, 2) . "　　pi(円周率)  + round で四捨五入<br>";
+    
+function circleArea($r) {
+    $circle_area = $r * $r * pi();
+    echo $circle_area . "　　piを用いた円の面積を計算するための関数<br>"; 
+}
+// 半径が2の円の面積の計算
+circleArea(3) ;
+
 // mt_rand（乱数）
+
+$num = mt_rand(1, 100);
+if ($num > 50 ){
+  echo "Aの列にお並びください。" . "<br>";
+}
+else{
+  echo "Bの列にお並びください。" . "<br>";
+}
+
 
 // strlen（文字列の長さ）
 
